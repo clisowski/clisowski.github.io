@@ -1,36 +1,59 @@
 * {
-	font-family: Arial, Verdana, sans-serif;
 	color: Black;
 	text-align: center;
 }
 body{
 	Width:  960px;
 	margin: 0 auto;
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: antiquewhite;
 }
 nav{
-	background-color: blueviolet;
+	font-family: Arial, Verdana, sans-serif;
 	padding: 10px;
 	margin:  10px;
+	display: block;
 }
 
-li{
-	display: inline;
-	padding: 5px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+  color: black;
 }
 
 section{
 	overflow: auto;
 	height: 100%;
+	background-color: antiquewhite;
 }
 
 main{
-	background-color: lightblue;
 	padding:  10px;
 	margin: 10px;
 }
 
 article{
-	background-color: skyblue;
+	font-family: Arial, Verdana, sans-serif;
 	padding: 10px;
 	margin: 10px;
 	width: 280px;
